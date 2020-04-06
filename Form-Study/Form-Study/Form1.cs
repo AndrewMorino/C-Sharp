@@ -16,5 +16,10 @@ namespace Form_Study
         {
             InitializeComponent();
         }
+
+        private void False(object sender, PreviewKeyDownEventArgs e)
+        {
+
+        }
     }
 }
