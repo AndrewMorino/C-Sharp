@@ -245,9 +245,13 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(482, 85);
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Coca",
+            "Pepsi",
+            "Fanta"});
+            this.checkedListBox1.Location = new System.Drawing.Point(470, 62);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(207, 154);
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 184);
             this.checkedListBox1.TabIndex = 14;
             // 
             // Form1
